@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28219" started-at="2020-02-26T17:21:49 IST" finished-at="2020-02-26T17:22:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28219" started-at="2020-02-26T17:21:49 IST" finished-at="2020-02-26T17:22:18 IST">
+      <class name="basics.test.openbrowser">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:basics.test.openbrowser@4e7dc304]" name="openbrowser" duration-ms="28199" started-at="2020-02-26T17:21:49 IST" finished-at="2020-02-26T17:22:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+      </class> <!-- basics.test.openbrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
