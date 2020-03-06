@@ -15,7 +15,8 @@ public class openbrowser {
 	@Test
 	public void openbrowser() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\dhineshk\\Downloads\\Selenium\\chromedriver_win32\\chromedriver.exe");
+	    String path =System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",path+"//Driver//chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://demoqa.com");
 		driver.manage().deleteAllCookies();
